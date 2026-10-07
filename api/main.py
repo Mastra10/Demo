@@ -16,7 +16,7 @@ def get_web_setup():
     <html lang="it">
     <head>
         <meta charset="UTF-8">
-        <title>Attivazione Dispositivo - Cedacri</title>
+        <title>Attivazione Dispositivo - Mastra test</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
         <style>
             body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #f4f6f9; margin: 0; }
@@ -29,11 +29,11 @@ def get_web_setup():
     </head>
     <body>
         <div class="card">
-            <h1>CEDACRI</h1>
+            <h1>MASTRA TEST</h1>
             <h2>Attivazione Dispositivo Mobile</h2>
             <p class="footer-text">1. Apri Authenticator sul tuo smartphone.<br>2. Seleziona "Aggiungi account" e inquadra il QR code.</p>
             <div id="qrcode"></div>
-            <p class="footer-text">3. Apri l'App Cedacri e inserisci il codice a 6 cifre.</p>
+            <p class="footer-text">3. Apri l'App  e inserisci il codice a 6 cifre.</p>
         </div>
         <script>
             fetch('/api/auth/setup')
