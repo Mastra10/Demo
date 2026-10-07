@@ -55,7 +55,7 @@ def get_web_setup():
 @app.get("/api/auth/setup")
 def setup_auth():
     return {
-        "qr_uri": "otpauth://totp/AppAziendale:Demo_Capo?secret=SO7UDQM2ZA6CEJ6DHFUDGYW4RJP6CLAB&issuer=AppAziendale",
+        "qr_uri": "otpauth://totp/AppAziendale:Demo_Mastra?secret=SO7UDQM2ZA6CEJ6DHFUDGYW4RJP6CLAB&issuer=AppAziendale",
         "secret": "SO7UDQM2ZA6CEJ6DHFUDGYW4RJP6CLAB"
     }
 
